@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- onboarding_1 strings -->
+
+	<string name="app_name">Page 1</string>
+	<string name="ek_img_content">ExportKit Image</string>
+	<string name="next_string">Next</string>
+	<string name="we_check_each_specia_string">Это моё первое приложение :)</string>
+	<string name="proven_specialists_string">Привет!</string>
+	<string name="proven_specialists_string2">Android Studio</string>
+</resources>

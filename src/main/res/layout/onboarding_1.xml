@@ -1,0 +1,142 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent" android:layout_height="wrap_content" >
+	<!--
+	/*
+	 *	This content is generated from the API File Info.
+	 *	(Alt+Shift+Ctrl+I).
+	 *
+	 *	@desc
+	 *	@file 		onboarding_1
+	 *	@date 		Saturday 27th of August 2022 03:07:21 PM
+	 *	@title 		Page 1
+	 *	@author
+	 *	@keywords
+	 *	@generator 	Export Kit v1.3.figma
+	 *
+	 */
+	-->
+	<RelativeLayout android:id="@+id/onboarding_1"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent" >
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+
+			<View
+				android:id="@+id/_bg__onboarding_1"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__onboarding_2_shape" />
+
+			<RelativeLayout
+				android:id="@+id/button_next"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="30dp"
+				android:layout_marginTop="412dp">
+
+				<ImageView
+					android:id="@+id/base"
+					android:layout_width="315dp"
+					android:layout_height="60dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="base"
+					android:src="@drawable/base" />
+
+				<TextView
+					android:id="@+id/next"
+					android:layout_width="49dp"
+					android:layout_height="30dp"
+					android:layout_gravity="center_horizontal|center"
+					android:layout_marginLeft="136dp"
+					android:layout_marginTop="21dp"
+					android:fontFamily="Gilroy"
+					android:gravity="center"
+					android:text="@string/next_string"
+					android:textColor="@color/_bg__onboarding_1_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/pagination"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="152dp"
+				android:layout_marginTop="673dp">
+
+				<View
+					android:id="@+id/oval"
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:layout_marginStart="45dp"
+					android:layout_marginTop="0dp"
+					android:alpha="0.4146"
+					android:background="@drawable/oval_shape" />
+
+				<View
+					android:id="@+id/oval_copy"
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:layout_marginStart="27dp"
+					android:layout_marginTop="0dp"
+					android:alpha="0.4146"
+					android:background="@drawable/oval_copy_shape" />
+
+				<View
+					android:id="@+id/oval_copy_2"
+					android:layout_width="8dp"
+					android:layout_height="8dp"
+					android:layout_marginStart="63dp"
+					android:layout_marginTop="0dp"
+					android:alpha="0.4146"
+					android:background="@drawable/oval_copy_2_shape" />
+
+				<View
+					android:id="@+id/rectangle"
+					android:layout_width="17dp"
+					android:layout_height="8dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/rectangle_shape" />
+
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/we_check_each_specia"
+				android:layout_width="266dp"
+				android:layout_height="55dp"
+				android:layout_gravity="center_horizontal|center"
+				android:layout_marginLeft="58dp"
+				android:layout_marginTop="582dp"
+				android:fontFamily="Gilroy"
+				android:gravity="center"
+				android:text="@string/we_check_each_specia_string"
+				android:textColor="@color/we_check_each_specia_color"
+				android:textSize="16sp" />
+
+			<EditText
+				android:id="@+id/editTextTextPersonName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:ems="10"
+				android:inputType="textPersonName"
+				android:text="Name" />
+
+			<WebView
+				android:id="@+id/webContainer"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_below="@id/editTextTextPersonName" />
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+</RelativeLayout>
